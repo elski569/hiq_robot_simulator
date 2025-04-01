@@ -2,6 +2,7 @@
 
 # Test:
 mvn clean compile
+
 mvn test
 
 # Run:
@@ -16,11 +17,14 @@ Invalid Position: 2,2,hej
 
 Output:2,2,EAST
 
-# test1.txt:
+test1.txt:
+
 Output:0,1,NORTH
 
-# test2.txt:
+test2.txt:
+
 Output:0,0,WEST
 
-# test3.txt:
+test3.txt:
+
 Output:3,3,NORTH
