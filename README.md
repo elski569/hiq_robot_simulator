@@ -6,11 +6,14 @@ mvn test
 
 # Run:
 mvn clean compile
+
 mvn exec:java -Dexec.args="testfile.txt"
 
 # Expected output:
-# test.txt: 
+test.txt: 
+
 Invalid Position: 2,2,hej
+
 Output:2,2,EAST
 
 # test1.txt:
