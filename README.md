@@ -1,16 +1,16 @@
-## HIQ Code Test: Robot simulator
+# HIQ Code Test: Robot simulator
 
-# Test:
+## Test:
 mvn clean compile
 
 mvn test
 
-# Run:
+## Run:
 mvn clean compile
 
 mvn exec:java -Dexec.args="testfile.txt"
 
-# Expected output:
+## Expected output:
 test.txt: 
 
 Invalid Position: 2,2,hej
